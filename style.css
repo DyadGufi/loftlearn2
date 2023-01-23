@@ -68,7 +68,7 @@ button{
 
 
 .container{
-    margin: 0 auto;
+    margin: auto;
     width: 1142px;
 }
 
@@ -268,6 +268,10 @@ button{
 ===========================NEWS=========================
 =======================================================*/
 
+.news{
+    margin-bottom: 152px;
+}
+
 .news__title{
     font-size: 36px;
     font-weight: 800;
@@ -323,7 +327,6 @@ button{
 
 .paginator{
     text-align: center;
-    margin-bottom: 152px;
 }
 
 .paginator__text{
@@ -383,6 +386,8 @@ button{
 
 .about__title{
     margin-bottom: 37px;
+    font-size: 36px;
+    font-weight: 800;
 }
 
 .about__text{
@@ -419,12 +424,15 @@ button{
     right: 100px;
 }
 
+.social__item:last-child{
+    margin-right: 0;
+}
+
 .menu--footer{
     left: 400px;
 }
 
 .footer .contacts{
-    margin-right: 74px;
     text-align: right;
 }
 
