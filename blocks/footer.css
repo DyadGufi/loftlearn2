@@ -1,0 +1,36 @@
+/*======================================================
+=========================FOOTER=========================
+=======================================================*/
+
+.footer{
+    position: relative;
+    border-top: 1px solid #fff;
+    height: 146px;
+    justify-content: space-between;
+    /*display: flex;
+    align-items: center;*/
+
+    margin-top: auto;
+}
+
+.footer__col, .footer{
+    display: flex;
+    align-items: center;
+}
+
+.footer__col--right{
+    align-items: flex-end;
+}
+
+.footer .logo{
+    margin-right: 130px;
+}
+
+.footer .contacts{
+    text-align: right;
+}
+
+.footer .contacts__text{
+    font-size: 11px;
+    color: #9a9a9a;
+}

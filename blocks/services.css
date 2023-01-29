@@ -1,0 +1,77 @@
+/*======================================================
+======================SERVICES==========================
+=======================================================*/
+
+.services__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services{
+    margin-bottom: 180px;
+}
+
+.services__item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+
+    width: calc(100% / 3 - 18px);
+    background: #fff;
+    border-radius: 5px;
+    color: #666;
+    border: 5px solid transparent;
+    vertical-align: top;
+    /*margin-right: 20px;*/
+    padding: 40px 34px 53px 22px;
+}
+
+.services__item:last-child{
+    margin-right: 0;
+}
+
+.services__item:hover{
+    border: 5px solid #ccc;
+}
+
+.services__icon{
+    margin-bottom: 30px;
+    
+}
+
+.services__subtitle{
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+
+    margin-bottom: 17px;
+}
+
+.services__info{
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.services__info-item{
+    display: flex;
+    flex-direction: column;
+    width: 105px;
+    margin-right: 55px;
+}
+
+.services__info-item:last-child{
+    margin-right: 0;
+    width: 130px;
+}
+
+.services__info-text{
+    color: #000;
+    font-weight: 700;
+    display: contents;
+}
+
+.services__text{
+    font-size: 14px;
+    margin-bottom: 29px;
+}
