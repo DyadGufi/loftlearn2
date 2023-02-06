@@ -1,0 +1,212 @@
+.tag{
+    font-size: 13px;
+    color: #303030;
+    padding: 10px 25px;
+    border-radius: 50px;
+    background: #E7E7E7;
+}
+
+.tag--active{
+    background: #F2D4C9;
+    color: #1A1B1E;
+}
+
+.reviews{
+    column-count: 2;
+    column-gap: 30px;
+}
+
+.reviews__item{
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 50px 30px;
+    background: #f4f5f5;
+}
+
+.review__header{
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 27px;
+}
+
+.review__photo{
+    margin-right: 20px;
+}
+
+.review__user{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 11px;
+
+    transition: .1s linear;
+}
+
+.review__user::after{
+    content: url(./img/socials/vk-blue.png);
+    height: 30px;   
+}
+
+.review__user:hover{
+    color: #2E77A4;
+    text-decoration: underline;
+}
+
+.review__tags{
+    display: flex;
+    align-items: flex-start;
+}
+
+.review__title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #202020;
+    margin-bottom: 15px;
+}
+
+.review__title{
+    margin-bottom: 50px;
+}
+
+.review__content-text{
+    color: #818181;
+    margin-bottom: 50px;
+}
+
+.review__date{
+    color: #1A1B1E;
+    font-weight: 600;
+}
+
+.avatar{
+    width: 142px;
+    height: 142px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+/*====================================
+======================================
+====================================*/
+
+.separator{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: center;
+
+    background: #373737 url("./img/background/party.png") right bottom no-repeat;
+    min-height: 360px;
+}
+
+.separator__content{
+    max-width: 48%;
+
+}
+
+.separator__title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.separator__title-percent{
+    color: #FF5400;
+}
+
+
+/*====================================
+======================================
+====================================*/
+
+.inner-section__title{
+    text-transform: uppercase;
+}
+
+.form__row{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form__input{
+    flex: 1;
+    margin-right: 28px;
+    border-radius: 4px;
+    border: none;
+    background: #fff;
+    padding: 22px 30px;
+    
+    font-size: 18px;
+    color: #000;
+}
+
+.form__input::placeholder{
+    color: #666;
+}
+
+.form__input:last-child{
+    margin-right: 0;
+}
+
+.form__input--textarea{
+    height: 235px;
+}
+
+.form__controls{
+    display: flex;
+}
+
+.controls{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-bottom: 33px;
+}
+
+.controls__item{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.contols__elem{
+    cursor: pointer;
+}
+
+.controls__tag{
+    font-size: 13px;
+}
+
+.form__controls-title{
+    width: 32%;
+    font-size: 18px;
+    margin-right: 70px;
+}
+
+.form__buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form__button{margin-right: 20px;}
+.form__button:last-child{margin-right: 0;}
+
+.controls__checkbox:checked ~ .controls__tag{
+    background: #F2D4C9;
+}
+
+.controls__checkbox{
+    display: none;
+}
+
+
+
+
+
+
+
+
+

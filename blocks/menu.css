@@ -1,5 +1,8 @@
+.menu__list{
+    display: flex;
+}
+
 .menu__item{
-    display: inline-block;
     margin-right: 54px;
 
     font-size: 14px;
@@ -14,3 +17,10 @@
 .menu__item:hover{
     color: #FF3D00;
 }
+
+
+
+
+
+
+
