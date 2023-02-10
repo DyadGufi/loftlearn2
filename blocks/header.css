@@ -1,12 +1,13 @@
 .header{
     min-height: 73px;
 
-    margin-bottom: 110px;
-    margin-top: 23px;
+    margin-bottom: 148px;
+    margin-top: 10px;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
 }
 
 .header__col{

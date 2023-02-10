@@ -15,11 +15,12 @@
     display: flex;
     align-items: center;
 
-    margin-bottom: 27px;
+    margin-bottom: 25px;
 }
 
 .review__photo{
     margin-right: 20px;
+    margin-left: -5px;
 }
 
 .review__user{
@@ -52,6 +53,7 @@
     font-weight: 700;
     color: #202020;
     margin-bottom: 15px;
+    line-height: 1.4;
 }
 
 .review__title{
@@ -61,6 +63,7 @@
 .review__content-text{
     color: #818181;
     margin-bottom: 50px;
+    line-height: 1.687;
 }
 
 .review__date{

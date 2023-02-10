@@ -14,10 +14,12 @@
 
 .paginator__item{
     text-align: center;
+    margin-right: 3px;
 }
 
 .paginator__text{
-    margin-right: 25px;
+    margin-right: 27px;
+    margin-left: 12px;
 }
 
 

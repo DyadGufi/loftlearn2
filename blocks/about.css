@@ -21,7 +21,7 @@
     background: #fff;
     color: #000;
 
-    max-width: 785px;
+    max-width: 787px;
     min-height: 455px;
 
     margin-left: -130px;
@@ -35,16 +35,21 @@
     text-transform: uppercase;
 
     margin-bottom: 37px;
+    margin-top: 82px;
 }
 
 .about__title, .about__content-text, .about__button{
-    margin-top: 70px;
+    /*margin-top: 70px;*/
     margin-left: 81px;
 }
 
 .about__content-text{
     margin-bottom: 43px;
-    margin-right: 202px;
+    margin-right: 204px;
+    line-height: 1.687;
+    margin-top: 51px;
+    font-size: 16px;
+    max-width: 533px;
 }
 
 .about__content-text p{

@@ -97,6 +97,10 @@ button{
     color: #fff;
 }
 
+.about__button .button{
+    padding: 18px 38px;
+}
+
 .background{
     background: url(../img/background/promo.jpg) center top no-repeat, url(../img/background/bottom.jpg) center 80% no-repeat;
 }
@@ -106,6 +110,7 @@ button{
     flex-direction: column;
     min-height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
 

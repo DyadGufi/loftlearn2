@@ -3,17 +3,17 @@
 =======================================================*/
 
 .news-section{
-    margin-bottom: 152px;
+    margin-bottom: 141px;
 }
 
 .news{
-    margin-bottom: 57px;
+    margin-bottom: 54px;
     display: flex;
     justify-content: space-between;
 }
 
 .news__title{
-    margin-bottom: 51px;
+    margin-bottom: 65px;
     font-size: 36px;
     font-weight: 800;
     text-transform: uppercase;
@@ -52,23 +52,26 @@
     right: 0;
     bottom: 0;
     min-width: 140px;
-    margin-left: 32px;
-    margin-bottom: 26px;
+    margin-left: 31px;
+    margin-bottom: 22px;
+
+    width: 85%;
 }
 
 .single-news__date{
     font-size: 14px;
-    margin-bottom: 12px;
+    margin-bottom: 18px;
 }
 
 .single-news__title{
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
 }
 
 .single-news__desc{
     font-size: 16px;
+    line-height: 1.42;
 }
 
 

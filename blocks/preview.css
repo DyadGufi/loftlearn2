@@ -4,7 +4,7 @@
 
 .preview{
     text-align: center;
-    margin-bottom: 155px;
+    margin-bottom: 232px;
 }
 
 .preview__container{
@@ -22,15 +22,15 @@
 .preview__title{
     font-size: 72px;
     font-weight: 800;
-    line-height: 1.1;
+    line-height: 1.35;
     text-transform: uppercase;
 
     margin-bottom: 16px;
 }
 
 .preview__text{
-    font-size: 16px;
-    margin-bottom: 43px;
+    font-size: 18px;
+    margin-bottom: 40px;
 }
 
 .preview__button .button{
@@ -38,7 +38,7 @@
     border-radius: 35px;
     border: 3px solid #FF3D00;
 
-    padding: 18px 54px;
+    padding: 18px 51px;
 
     color: #fff;
     font-weight: 700;

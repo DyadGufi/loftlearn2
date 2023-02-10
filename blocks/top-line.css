@@ -7,7 +7,7 @@
 
 .top-line{
     min-height: 416px;
-    background: url(../img/services/service-top-line.jpg) right top no-repeat;
+    background: url(../img/services/service-top-line.jpg) right 49% top no-repeat;
     display: flex;
     flex-direction: column;
 

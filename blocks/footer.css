@@ -5,10 +5,10 @@
 .footer{
     position: relative;
     border-top: 1px solid #fff;
-    height: 146px;
+    height: 136px;
     justify-content: space-between;
-    /*display: flex;
-    align-items: center;*/
+    display: flex;
+    align-items: center;
 
     margin-top: auto;
 }
@@ -20,6 +20,8 @@
 
 .footer__col--right{
     align-items: flex-end;
+    margin-left: 75px;
+    margin-top: 10px;
 }
 
 .footer .logo{
