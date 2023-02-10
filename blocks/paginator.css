@@ -35,3 +35,11 @@
 .paginator__link:hover{
     background: #FF5500;
 }
+
+.paginator--light .paginator__link{
+    color:#000;
+}
+
+.paginator--light .paginator__link:hover{
+    color:#fff;
+}

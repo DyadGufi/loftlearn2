@@ -1,0 +1,9 @@
+.welcome .button{
+    background: #FF5500;
+    border-color: #FF5500;
+}
+
+.welcome .button:hover{
+    background: #FF3D00;
+    border-color: #FF3D00;
+}

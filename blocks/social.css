@@ -4,8 +4,102 @@
 
 .social__item{
     margin-right: 10px;
+    width: 36px;
+    height: 36px;
 }
 
 .social__item:last-child{
     margin-right: 0;
 }
+
+
+/*SOCIAL ICONS*/
+
+.social__icon{
+    display: inline-block;
+    position: relative;
+}
+
+.social__icon:before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    opacity: 1;
+    transition: .3s;
+}
+
+.social__icon::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    transition: .3s;
+    opacity: 0;
+}
+
+.social__icon:hover:before {
+    opacity: 0;
+}
+
+.social__icon:hover:after{
+    opacity: 1;
+}
+
+/*========TELEGRAM=========*/
+.icon-tel::before{
+    background: url(../img/social_icons/sprite.png) -72px 0px;
+}
+
+.icon-tel::after{
+    background: url(../img/social_icons/sprite.png) -72px -36px;
+}
+
+
+/*========VKONTAKTE=========*/
+.icon-vk::before{
+    background: url(../img/social_icons/sprite.png) -0px -72px;
+}
+
+.icon-vk::after{
+    background: url(../img/social_icons/sprite.png) -36px -72px;
+}
+
+
+/*========FACEBOOK=========*/
+.icon-fbook::before{
+    background: url(../img/social_icons/sprite.png) -36px 0px;
+}
+
+.icon-fbook::after{
+    background: url(../img/social_icons/sprite.png) 0px 0px;
+}
+
+
+/*========INSTAGRAM=========*/
+.icon-inst::before{
+    background: url(../img/social_icons/sprite.png) 0px -36px;
+}
+
+.icon-inst::after{
+    background: url(../img/social_icons/sprite.png) -36px -36px;
+}
+
+
+
+
+
+
+
+
+
+
+

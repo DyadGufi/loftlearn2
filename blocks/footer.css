@@ -34,3 +34,8 @@
     font-size: 11px;
     color: #9a9a9a;
 }
+
+.inner-footer .footer{
+    height: 132px;
+    margin-top: auto;
+}
