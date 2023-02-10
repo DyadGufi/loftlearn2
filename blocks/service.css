@@ -8,10 +8,6 @@
     margin-bottom: 0;
 }
 
-.service__item:last-child{
-    padding-bottom: 0;
-}
-
 .services-margin{
     margin-bottom: 70px;
 }

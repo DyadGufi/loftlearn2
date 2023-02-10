@@ -98,7 +98,7 @@ button{
 }
 
 .background{
-    background: url(../img/promo.jpg) center top no-repeat, url(../img/bottom.jpg) center 80% no-repeat;
+    background: url(../img/background/promo.jpg) center top no-repeat, url(../img/background/bottom.jpg) center 80% no-repeat;
 }
 
 .wrapper{
